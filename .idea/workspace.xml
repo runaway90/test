@@ -1,7 +1,182 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="95a852dd-a2d9-4fb9-a53b-9f25a4035c04" name="Default Changelist" comment="" />
+    <list default="true" id="95a852dd-a2d9-4fb9-a53b-9f25a4035c04" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/coders_house.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Api/ApiProblem.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Api/ApiProblemException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Command/AllegroAuthMicroserviceAccountCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Command/AllegroEventJournalCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Command/AllegroGetActualCategoriesCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Command/AllegroRefreshMicroserviceTokenCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Command/AllegroUpdateCategoriesCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Command/AllegroUpdateParametersCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Command/MsCreateNewAppSecretCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Command/MsFirstCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Command/MsSendMessageToCoreCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Command/MsShowAllAppSecretCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Controller/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Controller/Client/Allegro/AttachmentController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Controller/Client/Allegro/Authorization/AuthorizationController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Controller/Client/Allegro/Authorization/RefreshTokenController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Controller/Client/Allegro/CategoryController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Controller/Client/Allegro/DeliveryController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Controller/Client/Allegro/EventController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Controller/Client/Allegro/GroupOffersModifyController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Controller/Client/Allegro/MainAllegroController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Controller/Client/Allegro/ParameterController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Controller/Client/Allegro/PhotoController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Controller/Client/Allegro/SaleConditionController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Controller/Client/Allegro/SaleOffersController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Controller/Client/Allegro/ServicePointController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Controller/Client/Allegro/SizeTableController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Controller/Client/Allegro/VariantController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Controller/Client/Interfaces/AuthorizationInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Controller/Client/Microservice/CategoryController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Controller/Client/Microservice/MainMSController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Controller/Client/Microservice/ParameterController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Controller/Client/Traits/APIResponseTrait.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Controller/Client/Traits/DoctrineManagerTrait.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Controller/Client/Traits/ResponseTrait.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Controller/Request/RequestController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Entity/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Entity/AllegroActivateDevice.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Entity/AllegroCategories.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Entity/AllegroEvent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Entity/AllegroOffer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Entity/AllegroOrder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Entity/AllegroParameter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Entity/AllegroPhoto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Entity/AllegroTokens.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Entity/AllegroUserAccounts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Entity/MicroserviceApplication.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Entity/MicroserviceApplicationIps.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Entity/MicroserviceOperationLogs.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Entity/MicroserviceToken.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Entity/Traits/Allegro/Name.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Entity/Traits/Allegro/UUID.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Entity/Traits/Allegro/Value.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Entity/Traits/Date/CreatedAt.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Entity/Traits/Date/FinishTo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Form/AccountType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Migrations/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Migrations/Version20190213084306.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Migrations/Version20190213100716.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Migrations/Version20190214144552.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Migrations/Version20190306121631.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Migrations/Version20190306124152.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Migrations/Version20190306132801.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Migrations/Version20190306143256.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Migrations/Version20190308122750.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Migrations/Version20190308123259.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Migrations/Version20190312095254.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Repository/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Repository/ActiveAllegroDeviceRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Repository/AllegroAccessTokensRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Repository/AllegroEventRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Repository/AllegroOfferRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Repository/AllegroOrderRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Repository/AllegroParameterDictionaryRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Repository/AllegroParameterRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Repository/AllegroPhotoRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Repository/CategoriesRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Repository/MicroserviceApplicationRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Repository/MicroserviceOperationLogsRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Repository/MicroserviceTokenRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Repository/UserAllegroAccountsRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Security/ApiTokenAuthenticator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Services/Allegro/AccountService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Services/Allegro/AttachmentElements.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Services/Allegro/AuthorizationProcess.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Services/Allegro/CategoryElements.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Services/Allegro/DeliveryService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Services/Allegro/EventOperations.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Services/Allegro/GroupOffersModifyOperations.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Services/Allegro/MainAppService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Services/Allegro/ParameterElements.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Services/Allegro/PhotoElements.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Services/Allegro/SaleConditionElements.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Services/Allegro/SaleOfferElements.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Services/Allegro/ServicePointElements.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Services/Allegro/SizeTableElements.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Services/Allegro/VariantOperations.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Services/BaseService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Services/Microservice/AccessToken.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Services/Microservice/CategoriesOperations.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Services/Microservice/CoreRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Services/Microservice/OperationLogger.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Services/Microservice/RegistrationManagerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Services/Traits/EMTrait.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Services/Traits/LoggerTrait.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Validator/Allegro/Authorization.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/src/Validator/Allegro/AuthorizationValidator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/console" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/phpunit" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/cache.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/dev/debug.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/dev/easy_log_handler.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/dev/monolog.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/dev/routing.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/dev/web_profiler.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/doctrine.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/doctrine_migrations.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/framework.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/prod/doctrine.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/prod/monolog.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/routing.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/sensio_framework_extra.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/test/framework.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/test/monolog.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/test/routing.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/test/web_profiler.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/twig.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/routes.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/routes/annotations.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/routes/dev/twig.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/routes/dev/web_profiler.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/routes/package/crud.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/routes/package/functional_route.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/routes/user/crud.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpunit.xml.dist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Interfaces/Package/CRUDInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Interfaces/Package/Status/PackageDeliveredInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Interfaces/Package/Status/PackageInTransportInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Interfaces/User/CRUDInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/MainController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Package/ChangePackageInformation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Package/GetPackageInformation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Package/PackageCRUD.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/User/UserCRUD.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/Package.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/Traits/UUID.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Migrations/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/PackageRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/UserRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/PackageOperations.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/UserOperations.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/.gitignore" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +259,9 @@
       <dir>$PROJECT_DIR$/1/src</dir>
       <dir>$PROJECT_DIR$/src</dir>
     </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -212,6 +390,7 @@
     <option name="width" value="1221" />
     <option name="height" value="635" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -329,6 +508,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Controller/Interfaces/Package" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
@@ -367,24 +547,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554591075058</updated>
-      <workItem from="1554591079015" duration="10606000" />
+      <workItem from="1554591079015" duration="10931000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10606000" />
+    <option name="totallyTimeSpent" value="10931000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-177" y="322" width="1221" height="635" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="27" width="1366" height="741" extended-state="6" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27621484" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.245827" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" sideWeight="0.49924126" visible="true" weight="0.43373495" />
+      <window_info active="true" anchor="bottom" id="Terminal" sideWeight="0.49924126" visible="true" weight="0.36" />
       <window_info anchor="bottom" id="Event Log" sideWeight="0.5007587" side_tool="true" weight="0.3576159" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
