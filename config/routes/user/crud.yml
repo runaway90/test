@@ -1,0 +1,4 @@
+create:
+  path:       /create
+  controller: App\Controller\User\UserCRUD::create
+  methods:    [POST]

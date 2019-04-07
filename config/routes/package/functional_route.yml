@@ -1,0 +1,9 @@
+status_in_transport:
+  path:       /status_in_transport
+  controller: App\Controller\Package\ChangePackageInformation::packageInTransport
+  methods:    [PATH]
+
+status_delivered:
+  path:       /status_delivered
+  controller: App\Controller\Package\ChangePackageInformation::packageDelivered
+  methods:    [PATH]

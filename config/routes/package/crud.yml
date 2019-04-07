@@ -1,0 +1,9 @@
+create:
+  path:       /create
+  controller: App\Controller\Package\PackageCRUD::create
+  methods:    [POST]
+
+get_status_by_id:
+  path:       /get_status_by_id/{{$id}}
+  controller: App\Controller\Package\GetPackageInformation::getStatus
+  methods:    [GET]  

@@ -1,0 +1,11 @@
+microservice.crud_user:
+  resource: "../config/routes/user/crud.yml"
+  prefix: /user
+
+microservice.crud_package:
+  resource: "../config/routes/package/crud.yml"
+  prefix: /package
+
+microservice.functional_package:
+  resource: "../config/routes/package/functional_route.yml"
+  prefix: /package/change/
